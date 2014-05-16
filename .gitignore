@@ -1,0 +1,4 @@
+xcuserdata
+build
+*.a
+*_stub.h

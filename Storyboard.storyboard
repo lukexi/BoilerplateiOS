@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Di4-AD-c93">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="TTQ-v7-Mzz">
+            <objects>
+                <viewController id="Di4-AD-c93" customClass="BLPMainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RE3-Id-zNm"/>
+                        <viewControllerLayoutGuide type="bottom" id="nJV-TI-44I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tqV-Jz-5UD">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="veS-Jt-K0v">
+                                <rect key="frame" x="37" y="976" width="695" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Ground"/>
+                                    <segment title="Nothing"/>
+                                    <segment title="Shuttle"/>
+                                    <segment title="Thin Shuttle"/>
+                                    <segment title="Thin Solid"/>
+                                    <segment title="Bridge"/>
+                                    <segment title="Positive"/>
+                                    <segment title="Negative"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="veS-Jt-K0v" secondAttribute="bottom" constant="20" symbolic="YES" id="LnZ-Ob-TJt"/>
+                            <constraint firstItem="veS-Jt-K0v" firstAttribute="centerX" secondItem="tqV-Jz-5UD" secondAttribute="centerX" id="mrn-Qc-h5L"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="palette" destination="veS-Jt-K0v" id="00I-Jp-yXy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R4n-bw-vIA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-94" y="-286"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

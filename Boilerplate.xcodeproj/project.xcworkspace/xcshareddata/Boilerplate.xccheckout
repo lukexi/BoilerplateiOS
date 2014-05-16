@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>652F9380-6DF2-4F56-A417-E3D1DABEEF76</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Boilerplate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C6BCA4F0-A4B2-4CD9-B73E-84A44965DC41</key>
+		<string>https://github.com/treehub/skunk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Boilerplate/Boilerplate.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C6BCA4F0-A4B2-4CD9-B73E-84A44965DC41</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/treehub/skunk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C6BCA4F0-A4B2-4CD9-B73E-84A44965DC41</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C6BCA4F0-A4B2-4CD9-B73E-84A44965DC41</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Skunk</string>
+		</dict>
+	</array>
+</dict>
+</plist>
